@@ -35,7 +35,7 @@ formBtn.addEventListener("click", function (e) {
   addBookToLibrary(book);
   makeRow(table, myLibrary);
   container.style.display = "none";
-  // clearForm();
+  clearForm();
 });
 
 function makeRow(table, myLibrary) {
